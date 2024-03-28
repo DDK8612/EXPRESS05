@@ -1,7 +1,9 @@
-import express from "express";
-import data1 from"./singers.json" assert{type:"json"};
-const {singers} = data1;
-console.log(singers);
+
+const express = require("express");
+const {singers} = require("./singers.json");
+
+// const {singers} = data1;
+// console.log(singers);
 
 const app = express();
 
